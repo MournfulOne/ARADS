@@ -163,3 +163,10 @@ header{
       font-size: 14px;
       letter-spacing: 1px;
     }
+
+@media screen {
+    body{
+        min-width: 386px; 
+        min-height: 515px;
+    }
+}
