@@ -16,6 +16,11 @@
     --h3-font: 2rem;
     --normal-font: 1rem;
 }
+body{
+  background-color: white;
+  align-items: center;
+width:100%;
+}
 h2{
   color: white;
 }
@@ -69,6 +74,9 @@ header{
     letter-spacing: .2rem;
     color: black;
   }
+  .section2{
+    
+  }
   .section2-text p{
     font-size: var(--h3-font);
     font-weight: 600;
@@ -83,6 +91,10 @@ header{
     align-items:center;
     
     padding: 50px;
+    background-color: var(--items-color);
+   background-size: auto;
+   position: sticky;
+
     
 }
 .box{
@@ -154,6 +166,8 @@ header{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 2rem;
+    width: 100%;
+    position: sticky;
     }
     .copyright p{
       text-align: center;
@@ -162,11 +176,13 @@ header{
       color: var(--bg-color);
       font-size: 14px;
       letter-spacing: 1px;
+      position: sticky;
+      
     }
 
-@media screen {
-    body{
-        min-width: 386px; 
-        min-height: 515px;
-    }
-}
+    @media screen {
+      body{
+          min-width: 386px; 
+          min-height: 515px;
+      }
+  }
